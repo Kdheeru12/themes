@@ -33,6 +33,7 @@ class RightSideBar extends Component {
             nav1: this.slider1,
             nav2: this.slider2
         });
+        console.log(this.slider1)
 
     }
 
