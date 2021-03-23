@@ -148,7 +148,7 @@ class Root extends React.Component {
 								<Route path={`${process.env.PUBLIC_URL}/cart`} component={Cart}/>
 								<Route path={`${process.env.PUBLIC_URL}/wishlist`} component={wishList}/>
 								<Route path={`${process.env.PUBLIC_URL}/compare`} component={Compare}/>
-								<Route path={`${process.env.PUBLIC_URL}/checkout`} component={Checkout}/>
+								<Route path={`${process.env.PUBLIC_URL}/checkout`} component={checkOut}/>
 								<Route path={`${process.env.PUBLIC_URL}/order-success`} component={orderSuccess}/>
 
 								<Route path={`${process.env.PUBLIC_URL}/sales/orders`} component={aboutUs}/>

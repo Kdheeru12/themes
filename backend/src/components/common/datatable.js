@@ -13,7 +13,6 @@ export class Datatable extends Component {
             myData: this.props.myData
         }
     }
-
     selectRow = (e, i) => {
         if (!e.target.checked) {
             this.setState({
@@ -63,6 +62,7 @@ export class Datatable extends Component {
     render() {
         const { pageSize, myClass, multiSelectOption, pagination } = this.props;
         const { myData } = this.state
+        console.log(myData)
 
         const columns = [];
         for (var key in myData[0]) {

@@ -84,8 +84,8 @@ class checkOut extends Component {
     }
 
     render (){
-        const {cartItems, symbol, total} = this.props;
-
+        const {cartItems, symbol} = this.props;
+        const {total} = 1000
         // Paypal Integration
         const onSuccess = (payment) => {
             console.log("The payment was succeeded!", payment);
